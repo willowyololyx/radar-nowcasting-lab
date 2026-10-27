@@ -9,8 +9,6 @@ A learning and reproduction companion to the [IT4LIA–FBK seminar](https://gith
 - Planned: resolve units, run the pretrained IRENE model, compare forecasts with persistence, and evaluate independent precipitation events.
 - No model training or model-performance improvement is claimed in this version.
 
-The initial notebook was prepared and executed with AI assistance. Yingxue's next learning milestone is to rerun it locally, explain the checks, and document independent observations and changes. This is a personal learning project, not an official CINECA/FBK repository or an independently developed forecasting model.
-
 ## First result
 
 The sample contains 54 time steps on a 1400 × 1200 grid, separated by 5 minutes. Its compact NetCDF file expands to approximately 363 MB of float32 radar values. Missing observations must remain distinguishable from dry pixels.
@@ -62,6 +60,3 @@ For upstream cloud notebooks, follow the upstream README: each module has its ow
 
 Original seminar code, slides, notebooks, example data and pretrained weights belong to their respective authors; they are not redistributed in this companion. The upstream Module 2 has a BSD-2-Clause licence; do not assume that this automatically licenses every other course asset. Course Module 1 identifies the radar dataset as CC BY-SA 4.0. Derived radar figures here credit FBK/DPC, reference the upstream sample, and are provided under CC BY-SA 4.0. Preserve provenance when reusing them.
 
-## 中文起步说明
-
-这个仓库先记录真实、可运行的数据检查，再逐步加入自己的复现与分析。第一版Notebook及文档由AI协助准备，尚不代表本人已独立掌握全部内容。请先阅读 `docs/learning-note-01.md`，在本机重跑后，把自己的解释、问题和修改记入 `docs/experiment-log.md`。未实际运行的训练、指标和改进不应写成已完成成果。
