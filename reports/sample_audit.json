@@ -1,0 +1,35 @@
+{
+  "source_repository": "https://github.com/DSIP-FBK/IT4LIA-FBK-Seminar",
+  "upstream_commit": "676ffe7f941511bbdd955cfe9ec8bf51d05aad0e",
+  "sample_relative_path": "module2-irene-nowcasting/examples/sample_data.nc",
+  "sample_sha256": "1a94b2f0c576f8e80cac470b1994bf8faed3eae11fb6fee6feba21e1a52dc0e7",
+  "file_bytes": 11232217,
+  "variable": "RR",
+  "shape": [
+    54,
+    1400,
+    1200
+  ],
+  "dtype": "float32",
+  "uncompressed_variable_bytes": 362880000,
+  "first_timestamp": "2025-08-28 21:55:00",
+  "last_timestamp": "2025-08-29 02:20:00",
+  "timezone": "not encoded in sample timestamps",
+  "cadence_minutes": [
+    5.0
+  ],
+  "declared_units": "kg m-2 s-1",
+  "interpretation": "unresolved discrepancy with course mm/h documentation; no conversion applied",
+  "grid_mapping_variable_present": false,
+  "valid_fraction_min": 0.4412595238095238,
+  "valid_fraction_max": 0.4814327380952381,
+  "model_inference_performed": false,
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "xarray": "2026.9.0",
+    "matplotlib": "3.10.8",
+    "h5netcdf": "1.8.2",
+    "h5py": "3.16.0"
+  }
+}
